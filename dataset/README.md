@@ -18,17 +18,19 @@ The dataset contains of the 9 separate csv files. Each of the files contains one
 
 ## Download and Setup
 
+_To ensure the proper function of the analysis notebooks, the datasets needs to be located in this directory._
+
 To obtain the One-year Dataset of Host Behavior, please follow the instructions below:
 
-1) Download dataset from 
+1) Download dataset from [Zenodo](https://zenodo.org/record/3799932)
 
 ```
-
+$ wget https://zenodo.org/record/3799932/files/host-network-traffic-2019.tar.gz
 ```
 
 2) Unzip the dataset
 ```
-
+ tar -zxvf host-network-traffic-2019.tar.gz
 ```
 
 
