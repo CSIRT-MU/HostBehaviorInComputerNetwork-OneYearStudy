@@ -6,3 +6,4 @@ This folder contains analyses conducted in the associated study.
 * ```temporal_stability.ipynb``` - analyses related to the temporal stability research field discussed in the paper.
 * ```temporal_labels_stability.ipynb``` - analyses related to the temporal stability research field focused on the stability of the temporal labels.
 
+* ```profile_characteristics_stability.ipynb``` - analyses related to the analysis of the stability of the profile characteristics research field. 
