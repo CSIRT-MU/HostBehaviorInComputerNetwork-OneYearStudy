@@ -22,15 +22,30 @@ _To ensure the proper function of the analysis notebooks, the datasets needs to 
 
 To obtain the One-year Dataset of Host Behavior, please follow the instructions below:
 
-1) Download dataset from [Zenodo](https://zenodo.org/record/3799932)
+1) Go to dataset directory
+
+```
+$ cd dataset
+```
+
+2) Download dataset from [Zenodo](https://zenodo.org/record/3799932)
 
 ```
 $ wget https://zenodo.org/record/3799932/files/host-network-traffic-2019.tar.gz
 ```
 
-2) Unzip the dataset
+3) Unzip the dataset
 ```
  tar -zxvf host-network-traffic-2019.tar.gz
 ```
 
+### Preprocess Datasets for Faster Loading
 
+4) Create folder for the precomputed datasets
+```
+$ mkdir precomputed
+```
+5) Precompute data
+```
+$ cat dataset_list.txt | while read line; do python stability_analysis.py -i ./${line}-anon.csv -o ./precomputed/; done
+```
