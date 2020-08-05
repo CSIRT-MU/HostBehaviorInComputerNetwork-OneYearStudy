@@ -51,7 +51,7 @@ $ mkdir precomputed
 
 5) Precompute data
 ```
-$ cat dataset_list.txt | while read line; do python stability_analysis.py -i ./${line}-anon.csv -o ./precomputed/; done
+$ cat dataset_list.txt | while read line; do python profile_characteristics_stability_preprocessing.py -i ./${line}-anon.csv -o ./precomputed/; done
 ```
 
 6) Go to `./analyses/` and run any `.ipynb` notebook with the analyses
