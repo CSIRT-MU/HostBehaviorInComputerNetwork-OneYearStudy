@@ -3,9 +3,7 @@
 by **Tomas Jirsik** and **Petr Velan**
 
 
-An associate repository with dataset and analyses to the paper titled Host Behavior In ComputerNetwork: OneYearStudy
-
-[IEEE repository](https://ieeexplore.ieee.org/document/9250634)
+An associate repository with dataset and analyses to the paper titled [Host Behavior In Computer Network: OneYearStudy](https://ieeexplore.ieee.org/document/9250634)
 
 
 
