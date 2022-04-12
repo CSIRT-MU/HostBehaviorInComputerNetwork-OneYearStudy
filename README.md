@@ -5,7 +5,9 @@ by **Tomas Jirsik** and **Petr Velan**
 
 An associate repository with dataset and analyses to the paper titled Host Behavior In ComputerNetwork: OneYearStudy
 
-_The original paper is currently under review for publication._
+[IEEE repository](https://ieeexplore.ieee.org/document/9250634)
+
+
 
 ## Abstract
 
@@ -56,7 +58,19 @@ $ cat dataset_list.txt | while read line; do python profile_characteristics_stab
 
 6) Go to `./analyses/` and run any `.ipynb` notebook with the analyses
 
+## How to cite
 
+```bibtex
+@ARTICLE{9250634,
+  author={Jirsik, Tomas and Velan, Petr},
+  journal={IEEE Transactions on Network and Service Management}, 
+  title={Host Behavior in Computer Network: One-Year Study}, 
+  year={2021},
+  volume={18},
+  number={1},
+  pages={822-838},
+  doi={10.1109/TNSM.2020.3036528}}
+```
 
 ## Acknowledgements
 
